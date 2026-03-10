@@ -1,0 +1,20 @@
+[
+  {
+    "name": "RBC Short News",
+    "base_url": "https://www.rbc.ru/short_news/",
+    "result_item_selector": "a.js-news-feed-item, a.news-feed__item",
+    "title_selector": ".news-feed__item__title, .news-feed__item-title, .news-feed__item__content",
+    "link_selector": "a",
+    "snippet_selector": ".news-feed__item__text, .news-feed__item-text",
+    "article_selector": "article, .article__text, .l-col-center"
+  },
+  {
+    "name": "Первый канал — Новости",
+    "base_url": "https://www.1tv.ru/news?=",
+    "result_item_selector": "article, .news-item, .news-list__item",
+    "title_selector": "h2, h3, .news-item__title, .news-list__title, a",
+    "link_selector": "a",
+    "snippet_selector": "p, .news-item__text, .news-list__text",
+    "article_selector": "article, .material, .material-content, .article__content"
+  }
+]
